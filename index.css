@@ -1,0 +1,149 @@
+
+/*default css reset styling*/
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+/*Body styling*/
+
+body{background-color:hsl(216, 12%, 8%) ;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+/*styling of the main rating section*/
+
+#main-card, .card-format{width:20rem ;
+height:21.875rem ;
+border-radius: 15px 15px 15px 15px ;
+background-color:hsl(215, 10%, 23%) ;
+margin: 6.25rem auto;}
+
+
+
+/*star image at the top styling */
+
+
+#main-card img{background-color:hsl(210, 3%, 28%) ;
+border-radius: 50%;
+display:inline-block;
+height:2.5rem;
+width:2.5rem;
+margin-top: 1.25rem;
+margin-left: 1.25rem;
+padding: 0.8rem;
+border-style: none;}
+
+
+/*styling of the header text*/
+
+#main-card h1, .big-text{color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1.25rem;
+    padding-top: 0.625rem;
+    font-size: 1.875rempx;
+}
+
+
+/*styling of the paragaph text*/
+#main-card p, .parag-style{color: hsl(217, 12%, 63%);
+margin-top: 1.25rem;
+margin-bottom: 0.625rem;
+padding-left:  1.25rem ;
+padding-right:  1.25rem;
+font-family: 'Times New Roman', Times, serif;}
+
+
+
+/*styling of the list items submit button*/
+
+ul{list-style:none ;
+display: flex;
+justify-content: space-between;
+margin-left: 1.25rem;
+margin-right:1.25rem;
+margin-bottom: 0.3125rem;}
+
+
+#main-card ul li button{
+height: 2.5rem;
+width: 2.5rem;
+border-radius: 50%;
+border-style: none;
+background-color: hsl(210, 3%, 28%);
+color:hsl(217, 12%, 63%) ;
+padding-top: 2px;}
+#main-card ul li button:hover{cursor: pointer;
+
+color: #fff;}
+#main-card ul li button:active{ color: #fff;
+    background-color:hsl(25, 97%, 53%) ;
+    transition: 0.3s;
+} 
+
+
+
+/*styling of the submit button*/
+.orange-btn{margin-top: 1.25rem;
+display: block;
+background-color:hsl(25, 97%, 53%) ;
+border:none ;
+width: 85%;
+height: 2.8125rem;
+border-radius: 1.875rem;
+margin-left: 2.5rem;
+margin-right: 0rem;
+color:#fff;
+font-size: 15px;
+text-transform: uppercase;}
+
+.orange-btn:hover{cursor: pointer;}
+
+.orange-btn:active{cursor: pointer;
+    background-color:#fff ;
+    color:hsl(25, 97%, 53%);
+transition: 0.3s;}
+
+/*specific styling for the thank you section*/
+
+
+#Thank-you{width:20rem ;
+    height:21.875rem ;
+    border-radius: 15px 15px 15px 15px ;
+    background-color:hsl(215, 10%, 23%); 
+    margin: 6.25rem auto;}
+
+
+
+    #Thank-you img{display: block;
+    height: 6.875;
+width: 6.875em;;
+margin:auto;
+padding-top: 1.875rem;}
+
+
+/*styling header*/
+
+#Thank-you h1{text-align: center;
+font-size: 1.5625rem;}
+
+/*styling paragraphs*/
+#Thank-you p{text-align: center;}
+#Thank-you p:first-of-type{ color:hsl(25, 78%, 56%);margin-top: 30px;}
+
+
+/*radius background for result clicked*/
+
+#Thank-you .interact-result{width:50% ;
+    height:20px ;
+    border-radius: 15px 15px 15px 15px ;
+    background-color:rgb(75, 75, 79) ;
+    margin: auto;
+padding-top: 1px;
+font-family: 'Times New Roman', Times, serif;}
+
+/*display none section*/
+.hidden{display: none;}
+    
