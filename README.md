@@ -22,22 +22,21 @@ If you selected 3 for example,' it returns **you selected 3 out of 5**
 
 ### Screenshot
 
-##### Desktop view Screenshot
+##### Desktop Rating Input Screenshot
 
-![desktop view screenshot](desktop-view-screenshot.png)
-
-
-
-##### Mobile view Screenshot
-
-![mobile view screenshot](mobile-view-screenshot.png)
+![desktop view screenshot](desktopinput.png)
 
 
 
-### Links
+##### Mobile Rating Output Screenshot
 
-- Solution URL:(https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-flex-box-D9AsmeJjyO)
-- Live Site URL: (https://timiprogs.github.io/Product-Preview-Card/)
+![mobile view screenshot](desktopresult.png)
+
+
+
+### Link
+
+- Live Site URL: (https://timiprogs.github.io/Interactive-Rating-Component/)
 
 
 
@@ -45,7 +44,7 @@ If you selected 3 for example,' it returns **you selected 3 out of 5**
 
 - Semantic HTML5 markup
 - CSS 
-
+- Javascript
 
 
 
